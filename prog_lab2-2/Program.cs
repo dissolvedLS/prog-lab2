@@ -29,6 +29,7 @@ namespace prog_lab2_2
                 double d = double.Parse(Console.ReadLine());
                 f = c * Math.Pow( (Math.Pow(x, 2) + d * Math.Pow(i, 1.2) ), 1.0/i);
             }
+
             Console.WriteLine("f = " + f);
         }
     }
